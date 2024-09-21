@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(156, 95, 115);
+    margin: 0 auto;
+    overflow-y: scroll;
+    background:linear-gradient(to left,rgb(224, 164, 204),rgb(253, 240, 218))
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+header nav {
+    padding-left: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 80px;
+}
+
+header nav ul li {
+    margin-left: 40px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+table {
+    text-align: center;
+
+}
+
+table tr td {
+    padding: 20px;
+}
+
+table th {
+    padding: 20px;
+}
+
+.container img {
+    width: 300px;
+    height: 450px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.container {
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+
+.tabela {
+    padding-left: 30%;
+}
+
+ol li {
+    padding-bottom: 5px;
+    font-size: 20px;
+ 
+}
+
+footer {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.form {
+    padding-left: 660px;
+    padding-bottom: 10px;
+}
+
+.form button {
+    background-color: palevioletred;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.form button a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.lista {
+    padding-left: 500px;
+}
+

@@ -1,0 +1,16 @@
+body {
+    background-color: #1a0029ef;
+    font-family: Arial, sans-serif;
+    font-size: large;
+    align-items: center;
+    font-style: oblique;
+    color: rgb(242, 214, 255);
+  }
+
+  footer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #7e33aa70;
+    margin-bottom: 20px;
+  } 

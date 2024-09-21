@@ -1,0 +1,27 @@
+.quad1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    float: left;
+    margin-left: 5px;
+}
+
+.quad2 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    float: left;
+    margin-left: 5px;
+}
+
+@keyframes move{
+    0% {}
+}

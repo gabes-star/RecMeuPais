@@ -1,0 +1,13 @@
+body {
+    text-align:center;
+}
+.coração {
+    font-size: 150px;
+    color: rgb(234, 24, 24);
+    animation: beat .25s infinite alternate ;
+    transform-origin: center;
+}
+@keyframes beat{
+    to {transform:scale(1.4);
+    }
+}

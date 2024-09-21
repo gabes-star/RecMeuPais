@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.fade{
+    width: 200px;
+    height: 200px;
+    background-color: #9948cb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    transition: opacity 1s ease;
+    opacity: 1;
+}
+
+.fade:hover{
+    opacity: 0.5;
+}
