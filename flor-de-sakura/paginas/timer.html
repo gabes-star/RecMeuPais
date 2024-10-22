@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="/css/timer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="stopwatch">
+        <h2 id="timer" style="display: flex; align-items: center; justify-content: center; background-color: #fdd2d2; height: 250px; width: 250px; border: 3px solid #ff9090; border-radius: 100%; font-weight: 600px; font-size: 30px; color: white; margin-bottom: 1.5rem; padding: 4rem;">
+            00:00:00:00
+        </h2>
+        <div id="actions" style="display: flex; align-items: center; justify-content: center; width: 100%; padding: .6rem; background: white;">
+            <button id="reset" style="border:none; background: transparent;">
+                <i class="fa-solid fa-rotate-right" style="font-size: 18px; color: #ef6f82;"></i>
+            </button>
+            <button id="power" action="start" style="border:none; background: transparent;">
+              <i class="fa-solid fa-play" style="font-size: 18px; color: #ef6f82;"></i>
+            </button>
+            <button id="mark" style="border:none; background: transparent;">
+                <i class="fa-solid fa-flag" style="font-size: 18px; color: #ef6f82;"></i>
+            </button>
+        </div>
+        <div id="marks-list" style="display: flex; flex-direction: column; gap: 0.7rem; color: #ffffff; margin-top: 1.5rem;"></div>
+    </div>
+  <br><br><br><br><br><br>
+  <script src="/js/timer.js"></script>
+</body>
+</html>
